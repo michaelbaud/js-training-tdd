@@ -10,6 +10,27 @@
  */
 
 // Your code:
+const multiply = (num1, num2) => {
+    let result = 0
+
+    const manualLoop = count => {
+        if (0 < count) {
+            result += Math.abs(num2)
+            manualLoop(count - 1)
+        }
+    }
+    manualLoop(Math.abs(num1))
+
+    if (num1 === 0 || num2 === 0) {
+        return 0
+    } else if (num1 < 0 && num2 < 0) {
+        return result
+    } else if (num1 < 0 || num2 < 0) {
+        return -result
+    } else {
+        return result
+    }
+}
 
 //* Begin of tests
 const assert = require('assert');

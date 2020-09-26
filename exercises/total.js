@@ -7,7 +7,6 @@
  */
 
 // Your code:
-
 const total = arr => arr.reduce((acc, cur) => acc + cur)
 
 //* Begin of tests

@@ -8,7 +8,6 @@
  */
 
 // Your code:
-
 const isPositive = num => num > 0 ? true : false
 
 //* Begin of tests

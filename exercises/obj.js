@@ -8,7 +8,6 @@
  */
 
 // Your code:
-
 const obj = {
     str: '1337',
     num: 42,

@@ -10,7 +10,6 @@
  */
 
 // Your code:
-
 const min = (num1, num2) => num1 < num2 ? num1 : num2
 
 //* Begin of tests
