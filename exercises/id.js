@@ -7,12 +7,9 @@
  */
 
 // Your code:
-<<<<<<< HEAD
 const id = (arg) => {
     return arg
 }
-=======
->>>>>>> 397228777c54800a5d34470ff5c175d1c99efbfa
 
 //* Begin of tests
 const assert = require('assert');
