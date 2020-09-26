@@ -9,11 +9,14 @@
 
 // Your code:
 
+<<<<<<< HEAD
 const str = '1337'
 const num = 42
 const bool = false
 const undef = undefined
 
+=======
+>>>>>>> 397228777c54800a5d34470ff5c175d1c99efbfa
 //* Begin of tests
 const assert = require('assert');
 

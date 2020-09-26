@@ -8,8 +8,11 @@
 
 // Your code:
 
+<<<<<<< HEAD
 const arr = [4, '2']
 
+=======
+>>>>>>> 397228777c54800a5d34470ff5c175d1c99efbfa
 //* Begin of tests
 const assert = require('assert');
 
